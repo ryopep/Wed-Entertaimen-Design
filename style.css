@@ -1,0 +1,221 @@
+@charset "UTF-8";
+
+body {
+  background-color: #f0f0f0;
+  margin: 0;
+}
+
+header {
+  padding: 0 16px;
+}
+
+h1 {
+  margin: 0;
+}
+
+header img {
+  width: 80px;
+  height: auto;
+  margin-top: 20px;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0 0 10px;
+  padding: 0;
+  font-size: 14px;
+}
+
+.contact {
+  display: none;
+}
+
+.figure1 img {
+  width: 100%;
+  object-fit: cover;
+  height: calc(100vh - 80px);
+}
+
+/* NEWS ニュース */
+.NEWS {
+  padding: 30px 10px 0 20px;
+}
+
+h2 {
+  display: flex;
+  flex-direction: column;
+  font-weight: normal;
+}
+
+.en {
+  margin-bottom: 10px;
+  font-size: 36px;
+  letter-spacing: 10px;
+}
+
+.ja {
+  font-size: 14px;
+}
+
+.ja::after {
+  margin-top: 24px;
+  content: "";
+  width: 40px;
+  height: 1px;
+  background-color: #000;
+  display: block;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.NEWS li {
+  margin-bottom: 10px;
+  padding: 10px 0;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+li span {
+  font-size: 12px;
+  display: inline-flex;
+  border: 1px solid black;
+  margin-left: 10px;
+  background: black;
+  color: white;
+  width: 50px;
+  height: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.figure2 img {
+  width: 100%;
+  object-fit: cover;
+}
+
+/* about */
+.ABOUT {
+  margin-bottom: 60px;
+  padding: 0 16px;
+}
+
+.ABOUT h2 {
+  margin-bottom: 34px;
+}
+
+.ABOUT p {
+  font-size: 14px;
+}
+
+/* business */
+
+.BUSINESS {
+  padding: 0 16px;
+}
+
+.BUSINESS p {
+  font-weight: bold;
+  font-size: 14px;
+  margin: 0 0 18px;
+  box-sizing: border-box;
+}
+
+.BUSINESS p::before {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 1px;
+  background-color: #000;
+  align-items: center;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.BUSINESS img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/* company */
+.COMPANY {
+  padding: 0px 16px;
+  margin-top: 60px;
+}
+
+.company {
+  padding: 40px 20px;
+  background: white;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.company dt {
+  margin-top: 20px;
+}
+
+.company dd {
+  margin: 5px 0 0;
+  padding-left: 14px;
+}
+
+.figure3 {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.WED {
+  background: white;
+  padding: 40px 16px 0;
+}
+
+.WED h2 {
+  margin: 0;
+}
+
+.WED img {
+  width: 80px;
+  height: auto;
+}
+
+.wed p {
+  font-size: 14px;
+}
+
+footer {
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+
+@media (min-width:900px) {
+  .inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  header ul {
+    margin: 0;
+  }
+
+  h1 img {
+    margin: 0 60px 0 0;
+  }
+
+  .contact {
+    width: 200px;
+    height: 80px;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+  }
+}
