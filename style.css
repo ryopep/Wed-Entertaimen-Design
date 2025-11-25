@@ -7,7 +7,7 @@ body {
 
 .inner-nav {
   padding: 0 16px;
-  margin: 0 aut0;
+  margin: 0 auto;
 }
 
 h1 {
@@ -207,6 +207,8 @@ footer {
   .inner-nav {
     display: flex;
     align-items: center;
+    flex: 1;
+    margin: 0 auto;
   }
 
   header ul {
