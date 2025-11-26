@@ -65,18 +65,19 @@
     </ul>
   </section>
 
-  <div class="figure2">
-    <img src="about.jpg" height="300">
-  </div>
+  <section class="about">
+    <div class="figure2">
+      <img src="about.jpg" height="300">
+    </div>
+    <div class="ABOUT">
+      <h2>
+        <span class="en">ABOUT</span>
+        <span class="ja">私たちについて</span>
+      </h2>
 
-  <section class="ABOUT">
-    <h2>
-      <span class="en">ABOUT</span>
-      <span class="ja">私たちについて</span>
-    </h2>
-
-    <p>テキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキスト<br>テキストテキストテキストテキストテキストテキスト
-      テキストテキストテキストテキストテキストテキスト<br>テキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキスト</p>
+      <p>テキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキスト<br>テキストテキストテキストテキストテキストテキスト
+        テキストテキストテキストテキストテキストテキスト<br>テキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキスト</p>
+    </div>
   </section>
 
   <section class="BUSINESS">
@@ -84,25 +85,32 @@
       <span class="en">BUSINESS</span>
       <span class="ja">事業内容</span>
     </h2>
-
-    <ul>
-      <li>
-        <p>web制作・マーケティング</p>
-        <img src="business1.jpg">
-      </li>
-      <li>
-        <p>インターネットメディア事業</p>
-        <img src="business2.jpg">
-      </li>
-      <li>
-        <p>web制作・マーケティング</p>
-        <img src="business3.jpg">
-      </li>
-      <li>
-        <p>ソーシャル企画・運営</p>
-        <img src="business4.jpg">
-      </li>
-    </ul>
+    <div class="flex">
+      <div class="left">
+        <ul>
+          <li>
+            <p>web制作・マーケティング</p>
+            <img src="business1.jpg">
+          </li>
+          <li class="internet">
+            <p>インターネットメディア事業</p>
+            <img src="business2.jpg">
+          </li>
+        </ul>
+      </div>
+      <div class="right">
+        <ul>
+          <li>
+            <p>web制作・マーケティング</p>
+            <img src="business3.jpg">
+          </li>
+          <li>
+            <p>ソーシャル企画・運営</p>
+            <img src="business4.jpg">
+          </li>
+        </ul>
+      </div>
+    </div>
   </section>
 
   <section class="COMPANY">
@@ -112,21 +120,35 @@
         <span class="ja">会社情報</span>
       </h2>
       <dl>
+        <div>
         <dt>会社名</dt>
         <dd>ウェブエンターテイメントデザイン株式会社</dd>
+        </div>
+        <div>
         <dt>所在地</dt>
         <dd>東京都渋谷区桜丘町99-9 West Building 3F</dd>
+        </div>
+        <div>
         <dt>代表</dt>
         <dd>X X X X X X</dd>
+        </div>
+        <div>
         <dt>設立</dt>
         <dd>2021年1月1日</dd>
+        </div>
+        <div>
         <dt>資本金</dt>
         <dd>3,000,000円</dd>
+        </div>
+        <div>
         <dt>事業内容</dt>
         <dd>web制作・マーケティング</dd>
+        </div>
+        <nav class="service">
         <dd>インターネットメディア事業</dd>
         <dd>プロモーション企画・制作</dd>
         <dd>ソーシャル企画・運営</dd>
+        </nav>
       </dl>
     </div>
     <img src="company.jpg" class="figure3">
@@ -146,13 +168,11 @@
       </p>
     </div>
     <footer>
-      </div>
       <small>
         © Web Entertainment Design Inc.
       </small>
     </footer>
   </section>
-
 </body>
 
 </html>
